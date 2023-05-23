@@ -24,6 +24,11 @@ inflationClass = InflationClass()
 cpiClass = CpiClass()
 
 
+@app.route('/', methods=['GET'])
+def sample_object():
+    return "Returning Sample Object}"
+
+
 # GET all analysis data
 @app.route('/analysis/get-all', methods=['GET'])
 def get_all_analysis():
