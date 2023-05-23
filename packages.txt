@@ -1,0 +1,11 @@
+run command
+flask --app main run --reload
+
+To activate the venv file
+venv\Scripts\activate
+
+packages
+
+pip install flask
+pip install pymysql
+pip install -U flask-cors

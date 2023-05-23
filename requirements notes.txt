@@ -1,0 +1,13 @@
+In Python Flask, you can use the pip package manager to install packages and their dependencies.
+To install packages listed in a requirements.txt file, you can use the following command:
+
+pip install -r requirements.txt
+
+This command will install all the packages listed in the requirements.txt file and their dependencies.
+You can create a requirements.txt file in your Flask project by running the following command:
+
+pip freeze > requirements.txt
+
+This command will generate a requirements.txt file that contains a list of all the packages installed
+in your virtual environment, along with their versions. This file can then be used to install
+the same packages and their dependencies on another machine or environment.
